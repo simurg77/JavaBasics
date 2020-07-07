@@ -49,7 +49,7 @@ public class MethodsWithReturn {
 		return value.toUpperCase();
 	}
 	
-	
+	// create new method
 	
 	
 	
