@@ -1,4 +1,4 @@
-package com.syntax.class18;
+ package com.syntax.class18;
 
 public class Employee {
 //	Create three  variables  eID , salary and set the CEO to “Sumair” 

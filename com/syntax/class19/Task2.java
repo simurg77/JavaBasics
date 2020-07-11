@@ -7,11 +7,17 @@ public class Task2 {
 
 	public static String reversed(String str) {
 		String result = "";
-		for (int i = str.length() - 1; i >= 0; i++) {
+		for (int i = str.length() - 1; i >= 0; i--) {
 			result += str.charAt(i);
 		}
 
 		return result;
 	}
 
+	public static void main(String[] args) {
+		
+		System.out.println(Task2.reversed("selam"));
+		
+	}
+	
 }

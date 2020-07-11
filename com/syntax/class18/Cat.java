@@ -18,6 +18,7 @@ public class Cat {
 				+" and it is "+age+" years old");
 	}
 	
+	
 	void displayCommonFeatures() {
 		System.out.println(name+" has "+paws+" paws and "
 	+" tail = "+tail +" and mustache = "+mustache  );
