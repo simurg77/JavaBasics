@@ -6,7 +6,9 @@ public class Cat extends Animal {
 	boolean tail;
 	
 	void purr(){
-		System.out.println("Cat puur");
+		System.out.println("Cat can purr");
 	}
+	
+	
 
 }

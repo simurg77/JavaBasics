@@ -14,6 +14,9 @@ public class MethodsWithReturn {
 		String upperValue = obj.convertToUpperCase("Thao");
 		System.out.println(upperValue);
 		
+		MethodsWithReturn obj1 = new MethodsWithReturn();
+		int largest=obj.getLargest(5, 7);
+		System.out.println(largest);
 	}
 
 	// create a method that will accept an int and return whether number is even
@@ -31,7 +34,7 @@ public class MethodsWithReturn {
 	}
 
 	// create a method taht will accept 2 int values and return the largest number
-	int getLargest(int a, int b) {
+	 int getLargest(int a, int b) {
 
 		int largest;
 

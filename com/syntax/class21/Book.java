@@ -7,26 +7,27 @@ public class Book {
 //	Instance variables are being initialized
 //	Both Constructors are being executed
 	
-	String bookName;
-	String bookKind;
-	String bookWriter;
+	String bookName, bookAuthor;
 	int bookPrice;
 	
-	
-	
-	Book(String bookName, int bookPrice){
-		this.bookName=bookName;
-		this.bookPrice=bookPrice;
-		
+	public Book(){
+		System.out.println("You should buy this book!");
 	}
 	
-	public Book(String bookKind, String bookWriter) {
-		this.bookKind= bookKind;
-		this.bookWriter= bookWriter;
-		
+	public Book(String bookName, String bookAuthor, int bookPrice) {
+		this();
+		this.bookName=bookName;
+		this.bookAuthor=bookAuthor;
+		this.bookPrice=bookPrice;
+	}
+	
+	public void display() {
+		System.out.println("You should buy and read "+bookName+" written by "+bookAuthor+" even though it's "+bookPrice+" is too high.");
 	}
 	
 	public static void main(String[] args) {
+		Book obj = new Book("Homo Sapiens", "Noah Harari", 50);
+		obj.display();
 		
 	}
 	

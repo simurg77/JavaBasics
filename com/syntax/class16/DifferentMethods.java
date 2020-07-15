@@ -4,7 +4,7 @@ public class DifferentMethods {
 	
 	// lets create method that says hello 10 times
 	
-	void sayHello(int times) {
+	  void sayHello(int times) {
 		for(int i=0; i<times; i++) {
 			System.out.println("Hello");
 		}

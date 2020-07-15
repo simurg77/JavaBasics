@@ -5,7 +5,7 @@ public class ThisKeyword {
 	int a, b;
 	
 	ThisKeyword(){
-		System.out.println("I am a constructor that you do not resly need");
+		System.out.println("I am a constructor that you do not realy need");
 		
 	}
 	

@@ -1,4 +1,4 @@
-package com.syntax.class21;
+ package com.syntax.class21;
 
 public class ThisKeywordTest {
 	public static void main(String[] args) {

@@ -1,24 +1,28 @@
-package com.syntax.class21;
+ package com.syntax.class21;
 
 public class AnimalTest {
 	
 	public static void main(String[] args) {
 		
-		Animal a=new Animal();
-		a.breed="Something";
-		a.color="Gray";
-		a.paws=4;
+		//object of parent class has an access to all variables and methods of it is own class only
+		Animal animal=new Animal();
+		animal.breed="Something";
+		animal.color="Gray";
+		animal.paws=4;
 		
-		a.sleep();
-		a.eat();
+		animal.sleep();
+		animal.eat();
 		
-		
+		//object of child class has an access to all var and methods of it is Parent and it is own Class
 		Dog dog = new Dog();
 		dog.breed="Husky";
 		dog.color="Yellow";
 		dog.paws=4;
 		dog.tail=true;
 		
+		dog.eat();
+		dog.sleep();
+		dog.bark();
 		
 		Cat cat = new Cat();
 		cat.breed="";
@@ -30,6 +34,16 @@ public class AnimalTest {
 		cat.purr();
 		cat.eat();
 		cat.sleep();
+		
+		Kitten kit = new Kitten();
+		kit.breed="Van";
+		kit.color="White";
+		kit.paws=4;
+		kit.tail=true;
+		
+		kit.play();
+		kit.purr();
+		
 	}
 
 }

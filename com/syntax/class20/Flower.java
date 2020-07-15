@@ -18,6 +18,11 @@ public class Flower {
 		type=flowerType;
 	}
 	
+	void Flower(){
+		
+		System.out.println("Printing whatever");
+	}
+	
 	public void display() {
 		System.out.println(type);
 	}
@@ -30,9 +35,9 @@ public class Flower {
 		
 		Flower flower2=new Flower("Tulip");
 		
-		System.out.println(flower2.type);
-		
 		flower2.display();
+		flower2.Flower();
+		
 		
 		
 	}
