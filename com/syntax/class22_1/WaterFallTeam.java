@@ -12,11 +12,11 @@ public class WaterFallTeam extends Employee {
 
 		WaterFallTeam wt = new WaterFallTeam();
 		WaterFallTeam.companyName = "Instagram";
-		wt.fullName = "Ahmet Bicer"; // protected variable is accessible to different package
+		wt.fullName = "Ahmet Bicer"; // protected variable is accessible to different class through inheritance
 		System.out.println(wt.fullName);
 		
 		Employee emp = new Employee();
-
+		
 	}
 
 }

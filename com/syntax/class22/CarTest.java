@@ -4,8 +4,7 @@ public class CarTest {
 	
 	public static void main(String[] args) {
 		
-		Tesla tesla = new Tesla("Tesla", true);
-		
+		Tesla tesla = new Tesla("Tesla", true);	
 		tesla.info();
 		
 	}

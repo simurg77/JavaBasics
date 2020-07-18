@@ -15,7 +15,7 @@ class Tesla extends Car {
 	boolean autopilot;
 	
 	public Tesla(String make, boolean autopilot) {
-		super(make);    //--> whether you add it or not compiler take care of it
+		super(make);    
 		this.autopilot=autopilot;
 	}
 	

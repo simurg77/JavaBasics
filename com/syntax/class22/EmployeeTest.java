@@ -16,7 +16,7 @@ public class EmployeeTest {
 	obj1.workOnBuildingSoftware();
 	
 	ProductOwner obj2 = new ProductOwner();
-	//ProductOwner.companyName grandchild have an acces
+	//ProductOwner.companyName grand child have an access TOO
 	obj2.salary=10000;
 	obj2.getPaid();
 	obj2.work();
@@ -26,6 +26,7 @@ public class EmployeeTest {
 	obj2.workOnBuildingSoftware();
 	
 	obj2.communicate();
+	
 	
 	}
 	

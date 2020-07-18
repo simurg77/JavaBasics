@@ -2,17 +2,17 @@ package com.syntax.class22;
 
 public class Employee {
 
-	public static String companyName;
-	protected String fullName;
-	double salary;
-	private long ssn;
+	public static String companyName; // entire project
+	protected String fullName; // same package unless inherited
+	double salary; // same package
+	private long ssn; // same class
 
-	static void work() {
+	public void work() {
 		System.out.println("All employee works");
 
 	}
 
-	void getPaid() {
+	public void getPaid() {
 		System.out.println("All employee get paid");
 	}
 
@@ -23,11 +23,11 @@ class ScrumTeam extends Employee {
 	String ceremonies;
 
 	void attendsmeetings() {
-		System.out.println("All employees attanding every meeting");
+		System.out.println("attending every meeting");
 	}
 
 	void workOnBuildingSoftware() {
-		System.out.println("All employees working for build new product");
+		System.out.println("working for build new product");
 	}
 
 }
@@ -45,7 +45,8 @@ class ProductOwner extends ScrumTeam {
 }
 
 class ScrumMaster extends ScrumTeam {
-
+	String quality;
+	
 	void shieldTeam() {
 		System.out.println("Scrum master is shielding the team");
 	}
